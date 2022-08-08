@@ -1,0 +1,30 @@
+.message-list {
+  height: 400px;
+  width: 50vw;
+  margin: 16px;
+  padding: 8px;
+  list-style: none;
+  overflow-y: scroll;
+  border: 2px solid #e9e8e8;
+  border-radius: 4px;
+}
+
+.message-list-content {
+  height: 400px;
+}
+
+.message-list-item {
+  background: #4bd299;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 12px 8px;
+  margin: 12px;
+}
+
+.message-list-content::after {
+  content: "";
+  display: block;
+  height: 80px;
+  opacity: 0;
+}

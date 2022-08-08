@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import MessageListWithUseEffect from "./components/MessageListWithUseEffect";
+import MessageListWithUseLayoutEffect from "./components/MessageListWithUseLayoutEffect";
+import useMessages from "./hooks/useMessages";
+import "./App.css";
 
 function App() {
+  const { messages, addMessage } = useMessages();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button onClick={addMessage} className="btn">
+        Add message
+      </button>
+      <div style={{ display: "flex" }}>
+        <MessageListWithUseLayoutEffect messages={messages} />
+        <MessageListWithUseEffect messages={messages} />
+      </div>
     </div>
   );
 }
