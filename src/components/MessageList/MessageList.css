@@ -1,12 +1,18 @@
+.message-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .message-list {
   height: 400px;
-  width: 50vw;
+  width: 40vw;
   margin: 16px;
   padding: 8px;
   list-style: none;
   overflow-y: scroll;
   border: 2px solid #e9e8e8;
   border-radius: 4px;
+  background-color: #000;
 }
 
 .message-list-content {

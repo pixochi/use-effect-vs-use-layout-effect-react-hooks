@@ -13,7 +13,7 @@ function App() {
       <button onClick={addMessage} className="btn">
         Add message
       </button>
-      <div style={{ display: "flex" }}>
+      <div className="message-lists-container">
         <MessageListWithUseLayoutEffect messages={messages} />
         <MessageListWithUseEffect messages={messages} />
       </div>

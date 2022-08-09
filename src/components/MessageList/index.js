@@ -2,17 +2,20 @@ import React from "react";
 
 import "./MessageList.css";
 
-const MessageList = React.forwardRef(({ messages }, ref) => {
+const MessageList = React.forwardRef(({ messages, title }, ref) => {
   return (
-    <ul ref={ref} className="message-list">
-      <div className="message-list-content">
-        {messages.map((message) => (
-          <li key={message.id} className="message-list-item">
-            {message.value}
-          </li>
-        ))}
-      </div>
-    </ul>
+    <div className="message-list-container">
+      <h2>{title}</h2>
+      <ul ref={ref} className="message-list">
+        <div className="message-list-content">
+          {messages.map((message) => (
+            <li key={message.id} className="message-list-item">
+              {message.value}
+            </li>
+          ))}
+        </div>
+      </ul>
+    </div>
   );
 });
 
