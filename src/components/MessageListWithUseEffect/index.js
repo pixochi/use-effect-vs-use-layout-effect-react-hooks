@@ -10,6 +10,6 @@ export default function MessageListWithUseEffect({ messages }) {
   }, [messages]);
 
   return (
-    <MessageList messages={messages} ref={listRef} title="useEffect React 17" />
+    <MessageList messages={messages} ref={listRef} title="useEffect React 18" />
   );
 }

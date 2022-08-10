@@ -13,7 +13,7 @@ export default function MessageListWithUseLayoutEffect({ messages }) {
     <MessageList
       messages={messages}
       ref={listRef}
-      title="useLayoutEffect React 17"
+      title="useLayoutEffect React 18"
     />
   );
 }
