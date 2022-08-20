@@ -4,6 +4,8 @@
 
 You can find the full explanation of this repository on [Medium](https://jakub-kozak.medium.com/react-hooks-when-to-use-uselayouteffect-instead-of-useeffect-3271a96d881a).
 
+The app is live on https://pixochi.github.io/use-effect-vs-use-layout-effect-react-hooks/.
+
 
 ## Available Scripts
 
