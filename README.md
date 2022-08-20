@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# React Hooks — When To Use useLayoutEffect Instead of useEffect
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://user-images.githubusercontent.com/7315105/185747896-c72a2522-eb81-42ab-8243-1c179b9c7169.png" alt="React Hooks — When To Use useLayoutEffect Instead of useEffect on Medium" width="140" />
+
+You can find the full explanation of this repository on [Medium](https://jakub-kozak.medium.com/react-hooks-when-to-use-uselayouteffect-instead-of-useeffect-3271a96d881a).
+
 
 ## Available Scripts
 
