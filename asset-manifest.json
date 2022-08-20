@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/use-effect-vs-use-layout-effect-react-hooks/static/css/main.ac4b5e3b.css",
+    "main.js": "/use-effect-vs-use-layout-effect-react-hooks/static/js/main.d5f5ea6f.js",
+    "static/js/787.956f2b66.chunk.js": "/use-effect-vs-use-layout-effect-react-hooks/static/js/787.956f2b66.chunk.js",
+    "index.html": "/use-effect-vs-use-layout-effect-react-hooks/index.html",
+    "main.ac4b5e3b.css.map": "/use-effect-vs-use-layout-effect-react-hooks/static/css/main.ac4b5e3b.css.map",
+    "main.d5f5ea6f.js.map": "/use-effect-vs-use-layout-effect-react-hooks/static/js/main.d5f5ea6f.js.map",
+    "787.956f2b66.chunk.js.map": "/use-effect-vs-use-layout-effect-react-hooks/static/js/787.956f2b66.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac4b5e3b.css",
+    "static/js/main.d5f5ea6f.js"
+  ]
+}
